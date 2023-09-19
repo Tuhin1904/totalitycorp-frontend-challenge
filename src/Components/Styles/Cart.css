@@ -1,0 +1,26 @@
+.cart{
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 80rem;
+    margin: 1rem auto;
+    /* background-color:rgb(221, 221, 221); */
+}
+
+.cartLeft{
+    width: 70%;
+    margin-right: 10px;
+    & img{
+        max-width: 100%;
+        /* mask-image: linear-gradient(to bottom , rgba(0,0,0,1), rgba(0,0,0,0) ); */
+        /* max-height: 10rem; */
+        /* object-fit:; */
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+    & .cartTitle{
+        border-bottom: 2px solid rgb(167, 167, 167);
+    }
+}
+.cartRight{
+    margin-left: 10px;
+}
