@@ -4,7 +4,10 @@ import React from 'react'
 import {FaSearch,FaShoppingCart} from "react-icons/fa"
 import { Link } from "react-router-dom"
 
+import { useSelector } from 'react-redux';
+
 function Header() {
+  const cartState=useSelector(state => state.counter)
   return (
     <div className="header" >
         <span id="logo_span">
@@ -29,7 +32,7 @@ function Header() {
               <span>Member</span>
           </div>
           <div className="navOptions">
-              <span> 0 </span>
+              <span> {cartState.nProducts} </span>
               <Link to="./cart">
               <FaShoppingCart color="rgb(255, 243, 74)"/>
               </Link>

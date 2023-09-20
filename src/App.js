@@ -8,7 +8,7 @@ import Eachproduct from "./Components/Eachproduct"
 import Errorpg from './Components/Errorpg';
 import Header from './Components/Header';
 import Home from './Components/Home';
-
+import Footer from './Components/Footer';
 function App() {
   return (
     <>
@@ -25,6 +25,7 @@ function App() {
         <Route path="/cart" element={<Cart/>}/>
         <Route path="*" element={<Errorpg/>}/>
       </Routes>
+    <Footer/>
    </Router>
    </>
   );

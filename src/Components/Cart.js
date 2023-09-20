@@ -2,6 +2,7 @@ import React from 'react'
 import "F:/e-commerce/src/Components/Styles/Cart.css"
 import cartBanner from "../Media/banner4.jpg"
 import Subtotal from './Subtotal';
+import Basketproduct from './Basketproduct';
 
 function Cart() {
   return (
@@ -11,6 +12,7 @@ function Cart() {
             
         <div>
           <h2 className="cartTitle">Your Checkout list</h2>
+          <Basketproduct/>
         </div>
         </div>
         <div className="cartRight">
