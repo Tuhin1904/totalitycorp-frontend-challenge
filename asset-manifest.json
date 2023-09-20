@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/css/main.4be56fb8.css",
-    "main.js": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/js/main.860484c8.js",
-    "static/media/notebook1.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/notebook1.8eea785b365ad2b6e46a.png",
-    "static/media/banner2.jpg": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/banner2.8986f1814187ecdf169f.jpg",
-    "static/media/soap1.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/soap1.394943ced2f64fdfc758.png",
-    "static/media/banner4.jpg": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/banner4.2ff1aafa62df9e978d75.jpg",
-    "static/media/bag1.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/bag1.ad601b99b8736223d0ea.png",
-    "static/media/iphoneFront.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/iphoneFront.55a183560bb40a2f5b2d.png",
-    "static/media/battery.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/battery.970f395222da58f76fa5.png",
-    "static/media/smartwatch.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/smartwatch.43f8f87e5278ae32d5a2.png",
-    "static/media/pillow1.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/pillow1.7cb580fd676f02e4706e.png",
-    "static/media/buds.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/buds.5358ff567b28bd7c4f5a.png",
-    "static/media/bulb.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/bulb.8340d8fcc4db700c8970.png",
-    "static/media/headphone.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/headphone.e971fdd00f0cc3fbf03b.png",
-    "static/media/sitelogo.png": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/media/sitelogo.e05dbccc1c1f58c5473d.png",
-    "index.html": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/index.html",
-    "main.4be56fb8.css.map": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/css/main.4be56fb8.css.map",
-    "main.860484c8.js.map": "/www.Tuhin1904.github.io/https://github.com/Tuhin1904/totalitycorp-frontend-challenge/static/js/main.860484c8.js.map"
+    "main.css": "/Tuhin1904/totalitycorp-frontend-challenge/static/css/main.4be56fb8.css",
+    "main.js": "/Tuhin1904/totalitycorp-frontend-challenge/static/js/main.73d18a59.js",
+    "static/media/notebook1.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/notebook1.8eea785b365ad2b6e46a.png",
+    "static/media/banner2.jpg": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/banner2.8986f1814187ecdf169f.jpg",
+    "static/media/soap1.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/soap1.394943ced2f64fdfc758.png",
+    "static/media/banner4.jpg": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/banner4.2ff1aafa62df9e978d75.jpg",
+    "static/media/bag1.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/bag1.ad601b99b8736223d0ea.png",
+    "static/media/iphoneFront.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/iphoneFront.55a183560bb40a2f5b2d.png",
+    "static/media/battery.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/battery.970f395222da58f76fa5.png",
+    "static/media/smartwatch.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/smartwatch.43f8f87e5278ae32d5a2.png",
+    "static/media/pillow1.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/pillow1.7cb580fd676f02e4706e.png",
+    "static/media/buds.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/buds.5358ff567b28bd7c4f5a.png",
+    "static/media/bulb.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/bulb.8340d8fcc4db700c8970.png",
+    "static/media/headphone.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/headphone.e971fdd00f0cc3fbf03b.png",
+    "static/media/sitelogo.png": "/Tuhin1904/totalitycorp-frontend-challenge/static/media/sitelogo.e05dbccc1c1f58c5473d.png",
+    "index.html": "/Tuhin1904/totalitycorp-frontend-challenge/index.html",
+    "main.4be56fb8.css.map": "/Tuhin1904/totalitycorp-frontend-challenge/static/css/main.4be56fb8.css.map",
+    "main.73d18a59.js.map": "/Tuhin1904/totalitycorp-frontend-challenge/static/js/main.73d18a59.js.map"
   },
   "entrypoints": [
     "static/css/main.4be56fb8.css",
-    "static/js/main.860484c8.js"
+    "static/js/main.73d18a59.js"
   ]
 }
