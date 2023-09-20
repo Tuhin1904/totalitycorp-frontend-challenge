@@ -1,5 +1,5 @@
 import React from 'react'
-import "F:/e-commerce/src/Components/Styles/Cart.css"
+import "../Components/Styles/Cart.css"
 import cartBanner from "../Media/banner4.jpg"
 import Subtotal from './Subtotal';
 import Basketproduct from './Basketproduct';

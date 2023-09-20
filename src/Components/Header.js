@@ -1,5 +1,5 @@
 import "./Styles/Header.css"
-import sitelogo from "F:/e-commerce/src/Media/sitelogo.png" 
+import sitelogo from "../Media/sitelogo.png" 
 import React from 'react'
 import {FaSearch,FaShoppingCart} from "react-icons/fa"
 import { Link } from "react-router-dom"
