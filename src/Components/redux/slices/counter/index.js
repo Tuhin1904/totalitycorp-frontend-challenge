@@ -4,7 +4,8 @@ import {createSlice} from "@reduxjs/toolkit"
     {
         initialState:{
             nProducts:0,
-            totalPrice:0
+            totalPrice:0,
+            pids:[]
         },
         name:"counter",
         reducers:{
@@ -16,7 +17,8 @@ import {createSlice} from "@reduxjs/toolkit"
             addToCart:(state, action)=>({ 
                 ...state,
                 nProducts: state.nProducts + 1,
-                totalPrice: state.totalPrice + Number(String(action.payload.price))
+                totalPrice: state.totalPrice + Number(String(action.payload.price)),
+                pids: [...state.pids, action.payload.id],
             })
     },
 });

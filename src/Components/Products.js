@@ -3,7 +3,7 @@ import {useDispatch } from 'react-redux';
 import "./Styles/Product.css";
 import {addToCart} from "./redux/slices/counter";
 
-function Products({title,image , price, rating }) {
+function Products({id,title,image , price, rating }) {
 
   const addToBasket =useDispatch()
   
@@ -15,12 +15,12 @@ function Products({title,image , price, rating }) {
         <p className="pPrice">Rs <strong>{price}</strong>
         </p>
         <div className="rRating">
-        {rating}
+        {Array(rating).fill().map(()=>(<p>⭐</p>))}
         </div>
         <img src={image} alt="" />
         <button onClick={()=>{  
           addToBasket(
-              addToCart({ price })
+              addToCart({ price ,id})
         )}}>Add to cart</button>
       </div>
     </div>

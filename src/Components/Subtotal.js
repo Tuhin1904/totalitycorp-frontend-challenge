@@ -11,7 +11,7 @@ function Subtotal() {
   return (
   <div className="subtotal">    
               <p>Subtotal ({cartState.nProducts} items): <strong>
-              Rs {cartState.totalPrice}
+              ₹ {cartState.totalPrice}
               </strong></p> 
                  <small className="isGift">
                     <input type="checkbox" />This order contains a gift

@@ -1,7 +1,7 @@
 .header{
     max-height: 5rem;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 1);
     position: fixed;
     width: 100vw;
     top: 0;
