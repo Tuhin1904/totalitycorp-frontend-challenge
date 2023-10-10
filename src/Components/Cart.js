@@ -13,7 +13,7 @@ function Cart() {
         <div className="cartLeft">
                 <img src={cartBanner} alt="" />
             
-        <div>
+        <div style={{padding:'1rem'}}>
           <h2 className="cartTitle">Your Checkout list</h2>
           <Checkout/>
             

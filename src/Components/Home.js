@@ -15,7 +15,7 @@ function Home() {
     {products.map((product)=>(
       product.pid>0 && product.pid<5 ?(
     <div className="rows"><div key={product.id} className="rowItem"> 
-      <Products title={product.ptitle} price={product.price} image={product.image} rating={product.rating}/>
+      <Products id={product.pid} title={product.ptitle} price={product.price} image={product.image} rating={product.rating}/>
       </div>
     </div>):null
      ))}</div>
@@ -23,7 +23,7 @@ function Home() {
     {products.map((product)=>(
       product.pid>=5 && product.pid<=7 ?(
     <div className="rows"><div key={product.id} className="rowItem"> 
-      <Products title={product.ptitle} price={product.price} image={product.image} rating={product.rating}/>
+      <Products id={product.pid} title={product.ptitle} price={product.price} image={product.image} rating={product.rating}/>
       </div>
     </div>):null
      ))}</div>
@@ -31,7 +31,7 @@ function Home() {
     {products.map((product)=>(
       product.pid>=8 && product.pid<12 ?(
     <div className="rows"><div key={product.id} className="rowItem"> 
-      <Products title={product.ptitle} price={product.price} image={product.image} rating={product.rating}/>
+      <Products id={product.pid} title={product.ptitle} price={product.price} image={product.image} rating={product.rating}/>
       </div>
     </div>):null
      ))}</div>

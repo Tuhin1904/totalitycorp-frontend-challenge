@@ -1,32 +1,39 @@
-import React from 'react'
-import "./Styles/Checkout.css"
-import { useSelector } from 'react-redux';
+import React from 'react';
+import './Styles/Checkout.css';
+import { useSelector, useDispatch } from 'react-redux';
+import products from './productinfo';
 
-function Checkout({pid,image, title, price, rating}) {
-
+function Checkout({ pid, image, title, price, rating }) {
   const cartState = useSelector((state) => {
-    return state.counter
-  })
+    return state.counter;
+  });
+  const removeFromBasket = useDispatch()
   return (
-        <div className="chkoutProduct">
-        <img src={image} alt="" />
-        <div className="proInfo">
-            <p className="ckhtitle">{title}</p>
-            <p className="chkprice">
-            ₹  <strong>{cartState.price}</strong>
-            </p>
-            <div className="chkRating">
-                {Array(rating)
-                .fill()
-                .map(()=> (
+    <div>
+      {cartState.pids.map((productId) => {
+        const product = products.find((prod) => prod.pid === productId);
+        return (
+          <div className='chkoutProduct' style={{ marginLeft: '2rem', marginTop: '2rem' }}>
+            <img src={product.image} alt='' style={{ maxWidth: '8rem',objectFit:"contain" }} />
+            <div className='proInfo'>
+              <p className='ckhtitle'>{product.ptitle}</p>
+              <p className='chkprice'>
+                ₹ <strong>{product.price}</strong>
+              </p>
+              <div style={{ display: 'flex' }} className='chkRating'>
+                {Array(product.rating)
+                  .fill()
+                  .map(() => (
                     <p>⭐</p>
-                ))
-                }
-                </div>
+                  ))}
+              </div>
+              <button id="rButton" onClick={removeFromBasket(product.pid)}>Remove from Cart</button>
             </div>
-            <button>Remove from Cart</button>
-        </div>
-  )
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
-export default Checkout
+export default Checkout;

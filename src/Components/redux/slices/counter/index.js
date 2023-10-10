@@ -19,6 +19,12 @@ import {createSlice} from "@reduxjs/toolkit"
                 nProducts: state.nProducts + 1,
                 totalPrice: state.totalPrice + Number(String(action.payload.price)),
                 pids: [...state.pids, action.payload.id],
+            }),
+            removeFromCart:(state, action)=>({
+                ...state,
+                nProducts:state.nProducts -1,
+                totalPrice:state.totalPrice - Number(String(action.payload.price)),
+                pids:[...state.pids, action.payload.id],
             })
     },
 });

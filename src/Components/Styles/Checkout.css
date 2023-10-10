@@ -1,0 +1,15 @@
+#rButton {
+  background-color: rgb(255, 210, 126);
+  border-radius: 4px;
+  width: 6rem;
+  margin-top: 5px;
+  border-color: rgb(202, 160, 83);
+  color: black;
+  height: 1.5rem;
+  font-size: 0.6rem;
+}
+.chkoutProduct{
+  display:flex;
+  align-items: center;
+  justify-content: left;
+}
